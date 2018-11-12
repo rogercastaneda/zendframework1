@@ -9,3 +9,9 @@ docker run -it --rm \
   --name zf1 \
   -e "APP_WEBROOT=/app" \
   rogercastaneda/zendframework1:0.1 sh ```
+
+## Run php56 version
+
+```
+docker run -itr --rm --name nginx-php rogercastaneda/zendframework1:php56x sh
+```
